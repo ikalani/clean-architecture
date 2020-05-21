@@ -2,11 +2,11 @@ package com.example.infraestructure.persistence.impl;
 
 import java.util.UUID;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.example.core.port.IdGeneratorService;
 
-@Component
+@Service
 public class IdGeneratorServiceImpl implements IdGeneratorService {
 
 	@Override
