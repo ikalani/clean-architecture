@@ -26,6 +26,8 @@ public class UserServiceImpl implements UserRepositoryService {
 	public void create(User user) {
 		userToSave.setId(idGenarator.generate());
 		userToSave.setEmail(user.getEmail());
+		userToSave.setFirstName(user.getFirstName());
+		userToSave.setLastName(user.getLastName());
 		repository.save(userToSave);
 
 	}

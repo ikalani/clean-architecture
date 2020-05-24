@@ -1,9 +1,10 @@
-package com.example.core.usecase;
+package com.example.core.usecase.impl;
 
 import org.springframework.stereotype.Component;
 
 import com.example.core.domain.User;
 import com.example.core.port.UserRepositoryService;
+import com.example.core.usecase.CreateUserUseCase;
 
 @Component
 public class CreateUserUseCaseImpl implements CreateUserUseCase {
